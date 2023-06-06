@@ -65,7 +65,7 @@ const ComponentOverview1: FunctionComponent = () => {
             Heading 2
           </div>
           <div className="self-stretch relative text-mini leading-[25px] font-extrabold text-center">
-            Commodo nec sagittis tortor mauris sed. Turpis tortor quis
+            Tesstt nec sagittis tortor mauris sed. Turpis tortor quis
             scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus
             volutpat eu. Phasellus praesent ligula sit faucibus.
           </div>
