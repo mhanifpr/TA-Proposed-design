@@ -61,9 +61,7 @@ const ComponentOverview1: FunctionComponent = () => {
       </div>
       <div className="absolute top-[722px] left-[66px] w-[1308px] h-[428px] text-5xl">
         <div className="absolute h-[46.26%] w-[16.97%] top-[62.38%] right-[79.13%] bottom-[-8.64%] left-[3.9%] flex flex-col items-center justify-center">
-          <div className="relative leading-[48px] font-black inline-block w-[117px]">
-            Heading 2
-          </div>
+        <div className="relative leading-[48px] font-black">Heading 2</div>
           <div className="self-stretch relative text-mini leading-[25px] font-extrabold text-center">
             Tesstt nec sagittis tortor mauris sed. Turpis tortor quis
             scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus
