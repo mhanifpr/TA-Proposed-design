@@ -18,7 +18,7 @@ const ComponentRecipe: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[720px] overflow-hidden">
       <Accordion
-        className="absolute top-[249px] left-[191px]"
+        className="absolute top-[249px] left-[500px] border-1"
         sx={{ width: 400 }}
       >
         <AccordionSummary expandIcon={<Icon>expand_more</Icon>}>
@@ -29,11 +29,7 @@ const ComponentRecipe: FunctionComponent = () => {
 `}</Typography>
         </AccordionDetails>
       </Accordion>
-      <img
-        className="absolute top-[216px] left-[777px] w-[533px] h-[206px] object-cover"
-        alt=""
-        src="/screen-shot-20230531-at-1601-1@2x.png"
-      />
+      
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[0px] bg-peru w-20 h-[73px]"
         to="/"
