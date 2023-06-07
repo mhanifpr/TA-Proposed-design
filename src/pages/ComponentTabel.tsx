@@ -1,5 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import StickyHeadTable from "./Tabelfunc";
 
 const ComponentTabel: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -12,13 +13,31 @@ const ComponentTabel: FunctionComponent = () => {
     <div className="relative rounded-3xs bg-white w-full h-[720px] overflow-hidden text-left text-lg text-black font-poppins">
       <div className="absolute top-[634px] left-[1148px] w-3 h-3 overflow-hidden" />
       <div className="absolute top-[634px] left-[1136px] w-3 h-3 overflow-hidden" />
-      <div className="absolute top-[274px] left-[249px] box-border w-[966px] h-0.5 border-t-[2px] border-solid border-silver" />
-      <div className="absolute top-[427px] left-[249px] box-border w-[966px] h-0.5 border-t-[2px] border-solid border-silver" />
-      <div className="absolute top-[552px] left-[249px] box-border w-[966px] h-0.5 border-t-[2px] border-solid border-silver" />
-      <div className="absolute top-[592px] left-[724px] w-[490px] flex flex-row items-center justify-between text-mini">
-        <div className="w-[489.8px] overflow-hidden shrink-0 flex flex-row items-start justify-between">
-          <div className="w-[185.24px] h-[25px] overflow-hidden shrink-0 flex flex-row items-center justify-start gap-[5px]">
-            <div className="relative tracking-[-0.02em] leading-[25px] font-medium inline-block w-[130.27px] shrink-0">
+      <div className="absolute top-[592px] left-[724px] w-[490px] flex flex-row items-center justify-between text-mini"/>
+        <div className="w-[489.8px] overflow-hidden shrink-0 flex flex-row items-start justify-between"/>
+          <div className="w-[185.24px] h-[25px] overflow-hidden shrink-0 flex flex-row items-center justify-start gap-[5px]"/>
+            
+      <div className="absolute top-[686px] left-[12px] text-mini tracking-[-0.02em] leading-[25px] font-medium">
+        https://mui.com/material-ui/react-table/
+      </div>
+
+      <div className="absolute top-[50px] left-[200px] w-[1000px] h-[160px]"><StickyHeadTable/></div>
+      <Link
+        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[0px] bg-peru w-20 h-[73px]"
+        to="/"
+        onClick={onHomeButtonClick}
+      >
+        <img
+          className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
+          alt=""
+          src="/bxhome2.svg"
+        />
+      </Link>
+    </div>
+  );
+};
+
+{/* <div className="relative tracking-[-0.02em] leading-[25px] font-medium inline-block w-[130.27px] shrink-0">
               Rows per page:
             </div>
             <div className="rounded-3xs bg-white box-border w-[49px] h-[23px] flex flex-row py-0 px-[9.56076717376709px] items-center justify-start gap-[7px] border-[1px] border-solid border-gray-300">
@@ -106,23 +125,6 @@ const ComponentTabel: FunctionComponent = () => {
           Explanation
         </div>
         <div className="absolute top-[34px] left-[-1px] box-border w-[966px] h-0.5 border-t-[2px] border-solid border-silver" />
-      </div>
-      <div className="absolute top-[686px] left-[12px] text-mini tracking-[-0.02em] leading-[25px] font-medium">
-        https://mui.com/material-ui/react-table/
-      </div>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[0px] bg-peru w-20 h-[73px]"
-        to="/"
-        onClick={onHomeButtonClick}
-      >
-        <img
-          className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
-          alt=""
-          src="/bxhome2.svg"
-        />
-      </Link>
-    </div>
-  );
-};
-
+      </div> */}
+      
 export default ComponentTabel;
