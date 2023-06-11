@@ -1,5 +1,6 @@
 import { FunctionComponent } from "react";
 import { Link } from "react-router-dom";
+import SearchAppBar from "./Searchbar";
 
 const ComponentNavigation1: FunctionComponent = () => {
   return (
@@ -14,21 +15,11 @@ const ComponentNavigation1: FunctionComponent = () => {
           src="/bxhome.svg"
         />
       </Link>
-      <div className="absolute top-[0px] left-[0px] bg-gainsboro-100 w-[1440px] h-[93px]" />
-      <div className="absolute top-[16px] left-[265px] flex flex-row py-2.5 px-0 items-start justify-start">
-        <div className="relative leading-[48px] font-black">Tutorial</div>
+      
+      
+      <div className="absolute top-[290px] left-[250px] w-[976px] h-48 bg-gray text-center border-1 ">
+        <SearchAppBar />
       </div>
-      <div className="absolute top-[16px] left-[383px] flex flex-row py-2.5 px-0 items-start justify-start">
-        <div className="relative leading-[48px] font-black">Glossary</div>
-      </div>
-      <div className="absolute top-[16px] left-[161px] flex flex-row py-2.5 px-0 items-start justify-start">
-        <div className="relative leading-[48px] font-black">Home</div>
-      </div>
-      <img
-        className="absolute top-[16px] left-[29px] rounded-[30px] w-[60px] h-[60px] object-cover"
-        alt=""
-        src="/image-1@2x.png"
-      />
     </div>
   );
 };
