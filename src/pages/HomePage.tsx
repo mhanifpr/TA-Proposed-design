@@ -47,7 +47,7 @@ const HomePage: FunctionComponent = () => {
   return (
     <div className="relative [background:linear-gradient(180.87deg,_#ffdead,_rgba(255,_222,_173,_0))] w-full h-[720px] overflow-hidden text-left text-mini text-black font-poppins">
       <div className="absolute top-[28px] left-[calc(50%_-_210px)] text-[32px] tracking-[-0.02em] font-black">
-        Pattern Library for GameSim
+        Design System for GameSim
       </div>
       <div className="absolute top-[112px] left-[45px] text-xl tracking-[-0.02em] font-black">{`Component list: `}</div>
       <Link
