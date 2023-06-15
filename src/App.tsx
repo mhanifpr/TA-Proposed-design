@@ -5,7 +5,6 @@ import {
   useLocation,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import ComponentNavigation1 from "./pages/ComponentNavigation1";
 import ComponentImportantFacts from "./pages/ComponentImportantFacts";
 import ComponentRecipe from "./pages/ComponentRecipe";
 import ComponentTroubleShooting from "./pages/ComponentTroubleShooting";
@@ -15,6 +14,11 @@ import ComponentTabel from "./pages/ComponentTabel";
 import ComponentExplanation1 from "./pages/ComponentExplanation1";
 import ComponentOverview1 from "./pages/ComponentOverview1";
 import ComponentLandingPage1 from "./pages/ComponentLandingPage1";
+import ComponentNavigation1 from "./pages/ComponentNavigation1";
+import PatternLandingPage from "./pages/PatternLandingPage";
+import PagesList from "./pages/PagesList";
+import PagesFormula from "./pages/PagesFormula";
+import PagesGuide from "./pages/PagesGuide";
 import { useEffect } from "react";
 
 function App() {
@@ -34,10 +38,6 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/component-navigation1":
         title = "";
         metaDescription = "";
         break;
@@ -77,6 +77,26 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/component-navigation1":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/pattern-landing-page":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/pages-list":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/pages-formula":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/pages-guide":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -96,7 +116,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/component-navigation1" element={<ComponentNavigation1 />} />
       <Route
         path="/component-important-facts"
         element={<ComponentImportantFacts />}
@@ -118,6 +137,11 @@ function App() {
         path="/component-landing-page1"
         element={<ComponentLandingPage1 />}
       />
+      <Route path="/component-navigation1" element={<ComponentNavigation1 />} />
+      <Route path="/pattern-landing-page" element={<PatternLandingPage />} />
+      <Route path="/pages-list" element={<PagesList />} />
+      <Route path="/pages-formula" element={<PagesFormula />} />
+      <Route path="/pages-guide" element={<PagesGuide />} />
     </Routes>
   );
 }

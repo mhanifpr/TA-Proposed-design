@@ -6,13 +6,14 @@ module.exports = {
       colors: {
         white: "#fff",
         black: "#000",
+        oldlace: "#fcf4e8",
+        lightcyan: "#e3fbfd",
+        dodgerblue: "#458fff",
+        peru: "#d5844d",
         gainsboro: {
-          "100": "#e8e8e8",
           "200": "#d9d9d9",
           "300": "rgba(217, 217, 217, 0.5)",
         },
-        peru: "#d5844d",
-        oldlace: "#fcf4e8",
         aliceblue: "#e8f5fc",
         darkslategray: {
           "100": "#19445f",
@@ -32,7 +33,6 @@ module.exports = {
         gray: {
           "100": "#fafafa",
           "200": "#532824",
-          "300": "rgba(0, 0, 0, 0.5)",
         },
         darkgray: "#afafaf",
         cornflowerblue: {
@@ -40,31 +40,31 @@ module.exports = {
           "200": "#3377cb",
         },
         lightgray: "#d6d6d6",
-        silver: "#c9c3c3",
       },
       fontFamily: {
         poppins: "Poppins",
         inherit: "inherit",
         roboto: "Roboto",
-        inter: "Inter",
       },
       borderRadius: {
         "3xs": "10px",
+        "11xl": "30px",
         "8xs": "5px",
       },
     },
     fontSize: {
-      xl: "20px",
+      sm: "14px",
       xs: "12px",
       mini: "15px",
-      sm: "14px",
+      xl: "20px",
+      "13xl": "32px",
       base: "16px",
       "29xl": "48px",
       smi: "13px",
-      lg: "18px",
       "17xl": "36px",
       "45xl": "64px",
       "5xl": "24px",
+      "3xl": "22px",
     },
   },
   corePlugins: {
