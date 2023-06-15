@@ -13,49 +13,49 @@ const PatternLandingPage: FunctionComponent = () => {
     <div className="relative bg-white w-full h-[1514px] overflow-y-auto text-left text-xl text-black font-poppins">
       <div className="absolute top-[727px] left-[0px] bg-white w-[1440px] h-[615px] overflow-hidden text-5xl">
         <div className="absolute top-[333px] left-[58px] w-[253px] h-[190px] flex flex-col items-center justify-center">
-          <div className="relative leading-[48px] font-black inline-block w-[117px]">
+          <div className="relative leading-[48px] font-bold inline-block w-[200px]">
             Heading 2
           </div>
-          <div className="self-stretch relative text-mini leading-[25px] font-extrabold text-center">
+          <div className="self-stretch relative text-mini leading-[25px] font-medium text-center">
             Commodo nec sagittis tortor mauris sed. Turpis tortor quis
             scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus
             volutpat eu. Phasellus praesent ligula sit faucibus.
           </div>
         </div>
         <div className="absolute top-[333px] left-[400px] flex flex-col items-center justify-center">
-          <div className="relative leading-[48px] font-black">Heading 2</div>
-          <div className="relative text-mini leading-[25px] font-extrabold inline-block w-[282px] h-[124px] shrink-0">
+          <div className="relative leading-[48px] font-bold">Heading 2</div>
+          <div className="relative text-mini leading-[25px] font-medium inline-block w-[282px] h-[124px] shrink-0">
             Commodo nec sagittis tortor mauris sed. Turpis tortor quis
             scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus
             volutpat eu. Phasellus praesent ligula sit faucibus.
           </div>
         </div>
         <div className="absolute top-[333px] left-[742px] flex flex-col items-center justify-center">
-          <div className="relative leading-[48px] font-black">Heading 2</div>
-          <div className="relative text-mini leading-[25px] font-extrabold inline-block w-[282px] h-[124px] shrink-0">
+          <div className="relative leading-[48px] font-bold">Heading 2</div>
+          <div className="relative text-mini leading-[25px] font-medium inline-block w-[282px] h-[124px] shrink-0">
             Commodo nec sagittis tortor mauris sed. Turpis tortor quis
             scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus
             volutpat eu. Phasellus praesent ligula sit faucibus.
           </div>
         </div>
         <div className="absolute top-[326px] left-[1084px] flex flex-col items-center justify-center">
-          <div className="relative leading-[48px] font-black">Heading 2</div>
-          <div className="relative text-mini leading-[25px] font-extrabold inline-block w-[282px] h-[124px] shrink-0">
+          <div className="relative leading-[48px] font-bold">Heading 2</div>
+          <div className="relative text-mini leading-[25px] font-medium inline-block w-[282px] h-[124px] shrink-0">
             Commodo nec sagittis tortor mauris sed. Turpis tortor quis
             scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus
             volutpat eu. Phasellus praesent ligula sit faucibus.
           </div>
         </div>
-        <div className="absolute top-[122px] left-[calc(50%_-_150px)] text-29xl leading-[48px] font-black">
+        <div className="absolute top-[122px] left-[calc(50%_-_150px)] text-29xl leading-[48px] font-bold">
           Utopia-Game
         </div>
-        <div className="absolute top-[200px] left-[calc(50%_-_389px)] text-mini tracking-[-0.02em] font-extrabold text-center inline-block w-[777px] h-[61px]">
+        <div className="absolute top-[200px] left-[calc(50%_-_389px)] text-mini tracking-[-0.02em] font-medium text-center inline-block w-[777px] h-[61px]">
           <p className="m-0">{`Lörem ipsum jongen kvasipyrat, tills bioska dira innan bir och syspel. Epipod isk. Epiktig makronat och tira dekanera vide. Rende immersiv och nar delan nesa pretebel. Kogöl monovalens hisasade vanera. Multina ekogram, kostymrasist krod i megaspeskapet geona fast tranisade. Ulig fysisk cd, eftersom mijässade plaspev bende. Ågena katek eurobävning.. `}</p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">&nbsp;</p>
         </div>
-        <div className="absolute top-[36px] left-[683px] text-base leading-[48px] font-black text-cornflowerblue-100 inline-block w-[74px] h-8">
+        <div className="absolute top-[36px] left-[683px] text-base leading-[48px] font-bold text-cornflowerblue-100 inline-block w-[74px] h-8">
           Overview
         </div>
       </div>

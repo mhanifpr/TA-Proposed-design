@@ -64,7 +64,7 @@ const HomePage: FunctionComponent = () => {
     <div className="relative bg-white w-full h-[720px] overflow-hidden text-left text-mini text-black font-poppins">
       <div className="absolute top-[0px] left-[0px] w-[1440px] h-[83px] text-13xl text-white">
         <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1440px] h-[83px]" />
-        <b className="absolute top-[19px] left-[calc(50%_-_207px)] tracking-[-0.02em]">
+        <b className="absolute top-[19px] left-[calc(50%_-_207px)] font-bold tracking-[-0.02em]">
           Pattern Library for GameSim
         </b>
       </div>
@@ -81,7 +81,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-navigation1"
         onClick={onNavCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">Navigation</div>
+        <div className="relative tracking-[-0.02em] font-bold">Navigation</div>
         <div className="relative text-xs tracking-[-0.02em]">1 component</div>
       </Link>
       <Link
@@ -89,7 +89,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-procedure1"
         onClick={onProcedureCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">Procedure</div>
+        <div className="relative tracking-[-0.02em] font-bold">Procedure</div>
         <div className="relative text-xs tracking-[-0.02em]">3 component</div>
       </Link>
       <Link
@@ -97,35 +97,35 @@ const HomePage: FunctionComponent = () => {
         to="/pages-guide"
         onClick={onProcedureComp1Click}
       >
-        <div className="relative tracking-[-0.02em] font-black">Guidance</div>
+        <div className="relative tracking-[-0.02em] font-bold">Guidance</div>
       </Link>
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[218px] left-[1207px] rounded-3xs bg-oldlace shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border w-[165px] h-[53px] flex flex-col py-5 px-[22px] items-center justify-center text-[inherit] border-[1px] border-solid border-black"
         to="/pages-formula"
         onClick={onProcedureComp2Click}
       >
-        <div className="relative tracking-[-0.02em] font-black">Formula</div>
+        <div className="relative tracking-[-0.02em] font-bold">Formula</div>
       </Link>
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[345px] left-[1019px] rounded-3xs bg-oldlace shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border w-[165px] h-[53px] flex flex-col py-5 px-[22px] items-center justify-center text-[inherit] border-[1px] border-solid border-black"
         to="/pattern-landing-page"
         onClick={onProcedureComp3Click}
       >
-        <div className="relative tracking-[-0.02em] font-black">HomeScreen</div>
+        <div className="relative tracking-[-0.02em] font-bold">HomeScreen</div>
       </Link>
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[345px] left-[1207px] rounded-3xs bg-oldlace shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border w-[165px] h-[53px] flex flex-col py-5 px-[22px] items-center justify-center text-[inherit] border-[1px] border-solid border-black"
         to="/pages-list"
         onClick={onProcedureComp4Click}
       >
-        <div className="relative tracking-[-0.02em] font-black">List</div>
+        <div className="relative tracking-[-0.02em] font-bold">List</div>
       </Link>
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[215px] left-[262px] rounded-3xs bg-oldlace shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] box-border w-[153px] h-20 flex flex-col py-5 px-[22px] items-start justify-end gap-[4px] text-[inherit] border-[1px] border-solid border-black"
         to="/component-landing-page1"
         onClick={onLPCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">
+        <div className="relative tracking-[-0.02em] font-bold">
           Landing Page
         </div>
         <div className="relative text-xs tracking-[-0.02em]">2 component</div>
@@ -135,7 +135,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-warning"
         onClick={onWarningCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">Warning</div>
+        <div className="relative tracking-[-0.02em] font-bold">Warning</div>
         <div className="relative text-xs tracking-[-0.02em]">2 component</div>
       </Link>
       <Link
@@ -143,7 +143,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-overview1"
         onClick={onOverviewCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">Overview</div>
+        <div className="relative tracking-[-0.02em] font-bold">Overview</div>
         <div className="relative text-xs tracking-[-0.02em]">2 component</div>
       </Link>
       <Link
@@ -151,7 +151,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-troubleshooting"
         onClick={onTroubleshootingCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">
+        <div className="relative tracking-[-0.02em] font-bold">
           TroubleShooting
         </div>
         <div className="relative text-xs tracking-[-0.02em]">2 component</div>
@@ -161,7 +161,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-explanation1"
         onClick={onExplanationCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">
+        <div className="relative tracking-[-0.02em] font-bold">
           Explanation
         </div>
         <div className="relative text-xs tracking-[-0.02em]">1 component</div>
@@ -171,7 +171,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-recipe"
         onClick={onLPComp1Click}
       >
-        <div className="relative tracking-[-0.02em] font-black">Recipe</div>
+        <div className="relative tracking-[-0.02em] font-bold">Recipe</div>
         <div className="relative text-xs tracking-[-0.02em]">1 component</div>
       </Link>
       <Link
@@ -179,7 +179,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-tabel"
         onClick={onTableCompClick}
       >
-        <div className="relative tracking-[-0.02em] font-black">Table</div>
+        <div className="relative tracking-[-0.02em] font-bold">Table</div>
         <div className="relative text-xs tracking-[-0.02em]">1 component</div>
       </Link>
       <Link
@@ -187,7 +187,7 @@ const HomePage: FunctionComponent = () => {
         to="/component-important-facts"
         onClick={onLPComp2Click}
       >
-        <div className="relative tracking-[-0.12em] font-black">
+        <div className="relative tracking-[-0.12em] font-bold">
           Important Fact
         </div>
         <div className="relative text-xs tracking-[-0.02em]">1 component</div>
