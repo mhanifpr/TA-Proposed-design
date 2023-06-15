@@ -10,22 +10,19 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 
 const steps = [
   {
-    label: "Select campaign settings",
-    description: `For each ad campaign that you create, you can control how much
-              you're willing to spend on clicks and conversions, which networks
-              and geographical locations you want your ads to show on, and more.`,
+    label: "Build Your Buildings",
+    description: `Bangunlah bangunan untuk meningkatkan ekonomi kerajaanmu! Baca lah
+    detail kelebihan dan kekurangan setiap bangunan.`,
   },
   {
-    label: "Create an ad group",
+    label: "Increase The Army",
     description:
-      "An ad group contains one or more ads which target a shared set of keywords.",
+      "bangun pertahanan kerajaanmu dengan meningkatkan pasukan. Pasukan dapat ditingkatkan dengan membuat bangunan Military Barracks dan lainnya.",
   },
   {
-    label: "Create an ad",
-    description: `Try out different ad text to see what brings in the most customers,
-              and learn how to enhance your ads using features like ad extensions.
-              If you run into any problems with your ads, find out how to tell if
-              they're running and how to resolve approval issues.`,
+    label: "Expand Your Land",
+    description: `Kembangkan kerajaanmu dengan memperluas lahan. Lahan dapat beratambah dengan melakukan eksplorasi atau menyerang kerajaan lain.
+    Baca dan teliti lebih seksama dan susun strategimu!`,
   },
 ];
 
@@ -54,7 +51,7 @@ export default function TextMobileStepper() {
           pl: 2,
           bgcolor: "background.default",
         }}
-        className={"bg-gray-400"}
+        className={"bg-gray-300"}
       >
         <Typography>{steps[activeStep].label}</Typography>
       </Paper>
@@ -66,7 +63,7 @@ export default function TextMobileStepper() {
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
-        className={"bg-gray-400"}
+        className={"bg-gray-300"}
         nextButton={
           <Button
             size="small"

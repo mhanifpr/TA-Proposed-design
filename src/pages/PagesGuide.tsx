@@ -1,5 +1,8 @@
 import { FunctionComponent, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import SearchAppBar from "./Searchbar";
+import HorizontalLinearStepper from "./HorizontalStepper";
+import TextMobileStepper from "./StepText";
 
 const PagesGuide: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -12,12 +15,12 @@ const PagesGuide: FunctionComponent = () => {
     <div className="relative bg-white w-full h-[1440px] overflow-y-auto text-left text-xl text-black font-poppins">
       <div className="absolute top-[73px] left-[0px] bg-lightcyan w-[270px] h-[1367px]" />
       <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[73px]"
+        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[65px]"
         to="/"
         onClick={onHomeButtonClick}
       >
         <img
-          className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
+          className="absolute top-[4px] left-[10px] w-[60px] h-[60px] overflow-hidden"
           alt=""
           src="/bxhome6.svg"
         />
@@ -55,7 +58,11 @@ const PagesGuide: FunctionComponent = () => {
         yang akan dimainkan, yang akan menentukan karakteristik khusus dan
         kemampuan khusus kerajaan.
       </div>
-      <div className="absolute top-[416px] left-[445px] w-[776px] h-48 text-mini text-white">
+      <div className="absolute top-[416px] left-[445px] w-[776px] h-48 bg-gray text-center">
+        <HorizontalLinearStepper />
+      </div>
+      {/* YANG LAMA Linear Stepper */}
+      {/* <div className="absolute top-[416px] left-[445px] w-[776px] h-48 text-mini text-white">
         <div className="absolute h-[15.1%] w-[3.74%] top-[42.19%] right-[86.47%] bottom-[42.71%] left-[9.79%]">
           <div className="absolute h-full w-full top-[0%] right-[0%] bottom-[0%] left-[0%] rounded-[50%] bg-cornflowerblue-200" />
           <div className="absolute top-[10.34%] left-[34.48%] tracking-[-0.02em] leading-[25px] font-medium">
@@ -95,9 +102,14 @@ const PagesGuide: FunctionComponent = () => {
         <div className="absolute top-[79.69%] left-[9.79%] tracking-[-0.02em] leading-[25px] font-medium text-darkgray">
           Back
         </div>
+      </div> */}
+      {/* <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" /> */}
+      
+      <div className="absolute top-[943px] left-[658px] w-[776px] h-48 bg-gray text-center border-1 ">
+        <TextMobileStepper />
       </div>
-      <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" />
-      <div className="absolute top-[943px] left-[658px] w-[400px] flex flex-col items-start justify-start text-mini">
+      {/* YG LAMA BOX STEPPER */}
+      {/* <div className="absolute top-[943px] left-[658px] w-[400px] flex flex-col items-start justify-start text-mini">
         <div className="self-stretch relative h-[50px]">
           <div className="absolute top-[0px] left-[0px] bg-lightgray w-[400px] h-[50px]" />
           <div className="absolute top-[12px] left-[135px] tracking-[-0.02em] leading-[25px] font-medium">
@@ -139,8 +151,13 @@ const PagesGuide: FunctionComponent = () => {
             </div>
           </div>
         </div>
+      </div> */}
+
+
+      <div className="absolute top-[0px] left-[0px] w-[1360px] h-73 bg-gray text-center border-1 ">
+        <SearchAppBar />
       </div>
-      <div className="absolute top-[5px] left-[247px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
+      {/* <div className="absolute top-[5px] left-[247px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
         <div className="relative leading-[48px] font-black">Tutorial</div>
       </div>
       <div className="absolute top-[5px] left-[143px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
@@ -151,15 +168,16 @@ const PagesGuide: FunctionComponent = () => {
         alt=""
         src="/image-1@2x.png"
       />
-      <img
-        className="absolute top-[73px] left-[0px] w-[270px] h-[502px] object-cover"
-        alt=""
-        src="/screen-shot-20230614-at-1321-1@2x.png"
-      />
+      
       <img
         className="absolute top-[10px] left-[1286px] w-[54px] h-[54px] overflow-hidden"
         alt=""
         src="/materialsymbolssearch.svg"
+      /> */}
+      <img
+        className="absolute top-[73px] left-[0px] w-[270px] h-[502px] object-cover"
+        alt=""
+        src="/screen-shot-20230614-at-1321-1@2x.png"
       />
     </div>
   );

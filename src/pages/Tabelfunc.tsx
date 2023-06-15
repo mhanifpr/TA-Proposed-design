@@ -9,7 +9,7 @@ import TablePagination from '@mui/material/TablePagination';
 import TableRow from '@mui/material/TableRow';
 
 interface Column {
-  id: 'name' | 'code' | 'population' | 'size' | 'density';
+  id: 'no' | 'name' | 'description' | 'gelar';
   label: string;
   minWidth?: number;
   align?: 'right';
@@ -17,65 +17,51 @@ interface Column {
 }
 
 const columns: readonly Column[] = [
-  { id: 'name', label: 'Name', minWidth: 170 },
-  { id: 'code', label: 'ISO\u00a0Code', minWidth: 100 },
+  { id: 'no', label: 'No', minWidth: 70 },
+  { id: 'name', label: 'Personality Name', minWidth: 100 },
   {
-    id: 'population',
-    label: 'Population',
-    minWidth: 170,
-    align: 'right',
-    format: (value: number) => value.toLocaleString('en-US'),
+    id: 'description',
+    label: 'Description',
+    minWidth: 300,
+    
+    
   },
   {
-    id: 'size',
-    label: 'Size\u00a0(km\u00b2)',
-    minWidth: 170,
-    align: 'right',
-    format: (value: number) => value.toLocaleString('en-US'),
+    id: 'gelar',
+    label: 'Gelar',
+    minWidth: 100,
   },
-  {
-    id: 'density',
-    label: 'Density',
-    minWidth: 170,
-    align: 'right',
-    format: (value: number) => value.toFixed(2),
-  },
+
 ];
 
 interface Data {
+  no: number;
   name: string;
-  code: string;
-  population: number;
-  size: number;
-  density: number;
+  description: string;
+  gelar: string;
+  
 }
 
 function createData(
+  no: number,
   name: string,
-  code: string,
-  population: number,
-  size: number,
-): Data {
-  const density = population / size;
-  return { name, code, population, size, density };
+  description: string,
+  gelar: string,
+  ): Data {
+  return { no, name, description, gelar };
 }
 
 const rows = [
-  createData('India', 'IN', 1324171354, 3287263),
-  createData('China', 'CN', 1403500365, 9596961),
-  createData('Italy', 'IT', 60483973, 301340),
-  createData('United States', 'US', 327167434, 9833520),
-  createData('Canada', 'CA', 37602103, 9984670),
-  createData('Australia', 'AU', 25475400, 7692024),
-  createData('Germany', 'DE', 83019200, 357578),
-  createData('Ireland', 'IE', 4857000, 70273),
-  createData('Mexico', 'MX', 126577691, 1972550),
-  createData('Japan', 'JP', 126317000, 377973),
-  createData('France', 'FR', 67022000, 640679),
-  createData('United Kingdom', 'GB', 67545757, 242495),
-  createData('Russia', 'RU', 146793744, 17098246),
-  createData('Nigeria', 'NG', 200962417, 923768),
-  createData('Brazil', 'BR', 210147125, 8515767),
+  createData(1, 'The Cleric	', 'Clerik membantu pasukan mereka di medan perang dengan menyembuhkan prajurit yang terluka untuk mengurangi jumlah korban keseluruhan. Mereka mendukung rekan mereka dengan berkat magis.', '[NamaPenguasa] yang Diberkati'),
+  createData(2, 'The Heretic', 'Heretik melanggar norma-norma fundamental dan tidak peduli. Mereka senang menentang keyakinan dan doktrin ajaran yang diterima', '[NamaPenguasa] si Skeptis'),
+  createData(3, 'The Merchant', 'Pedagang adalah ahli dalam perdagangan dan keuangan. Dikenal karena intuisi dan keahlian mereka dalam mengelola uang, Pedagang dapat menghasilkan lebih banyak emas daripada persona lainnya.', '[NamaPenguasa] yang Kaya'),
+  createData(4, 'The Mystic	', 'Ahli sihir, Mystic memiliki pengalaman dalam memperoleh manfaat paling besar dari dunia sihir. Dipimpin oleh "orang mereka sendiri" memberikan provinsi kemampuan luar biasa dalam seni mistik. Mystic akan menemukan diri mereka memiliki akses ke mantra paling mematikan yang orang lain tidak bisa mengalami.	', '[NamaPenguasa] si Penyihir'),
+  createData(5, 'The Rogue	', 'Dalam pandangan banyak orang, Rogue dianggap jahat sampai ke akar-akarnya. Rogue adalah persona yang sangat misterius. Rogue memiliki pengalaman luas dalam seni mencuri, penipuan, dan kejahatan - tetapi dalam Dunia Utopia, ini dapat digunakan untuk kebaikan dan kejahatan. Rogue akan menemukan diri mereka memiliki akses ke operasi pencurian yang mematikan yang orang lain tidak bisa mengalami.', '[NamaPenguasa] si Pendusta'),
+  createData(6, 'The Sage	', 'Sage memiliki kebijaksanaan dari masa ke masa dan pengetahuan tak terbatas. Memahami begitu banyak tentang kehidupan, dunia, dan sejarah, Sage dapat memberikan bimbingan unik di dunia yang terdiri dari begitu banyak bidang yang berbeda. Provinsi yang dipimpin oleh Sage akan menemukan diri mereka lebih efisien dalam bidang Seni dan Ilmu Pengetahuan.', '[NamaPenguasa] yang Bijak'),
+  createData(7, 'The Tactician	', 'Fokus Tactician adalah pada sisi strategis perang, memungkinkan gerakan pasukan yang cepat dan akurat. Kepemimpinan adalah hadiahnya sendiri dan kelicikan Tactician memberikan Anda kemampuan unik untuk menggunakan keuntungan strategis mereka untuk mengumpulkan informasi.', '[NamaPenguasa] yang Licik'),
+  createData(8, 'The War Hero	', 'Para pemimpin militer besar, War Heroes adalah di antara komandan terbaik di Utopia. Latar belakang perang dan warisan kepahlawanan menciptakan aura legitimasi di sekitar setiap pemimpin. War Hero mendapatkan penghormatan besar untuk posisinya.', '[NamaPenguasa] sang Pahlawan'),
+  createData(9, 'The Warrior', 'Agresif, kuat, dan tegas adalah semua kata sifat yang terlintas dalam pikiran saat menggambarkan Warrior. Kepemimpinan melalui kekuatan militer adalah inti dari menjadi seorang Warrior.	', '[NamaPenguasa] sang Prajurit'),
+
 ];
 
 export default function StickyHeadTable() {
@@ -113,7 +99,7 @@ export default function StickyHeadTable() {
               .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
               .map((row) => {
                 return (
-                  <TableRow hover role="checkbox" tabIndex={-1} key={row.code}>
+                  <TableRow hover role="checkbox" tabIndex={-1} key={row.name}>
                     {columns.map((column) => {
                       const value = row[column.id];
                       return (
@@ -131,7 +117,7 @@ export default function StickyHeadTable() {
         </Table>
       </TableContainer>
       <TablePagination
-        rowsPerPageOptions={[10, 25, 100]}
+        rowsPerPageOptions={[5, 10, 20]}
         component="div"
         count={rows.length}
         rowsPerPage={rowsPerPage}
