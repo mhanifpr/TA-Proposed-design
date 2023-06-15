@@ -1,5 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import SearchAppBar from "./Searchbar";
 
 const PatternLandingPage: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -63,20 +64,23 @@ const PatternLandingPage: FunctionComponent = () => {
         alt=""
         src="/screen-shot-20230529-at-1504-1@2x.png"
       />
-      <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" />
+      <div className="absolute top-[0px] left-[0px] w-[1360px] h-73 bg-gray text-center border-1 ">
+        <SearchAppBar />
+      </div>
+      {/* <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" />
       <div className="absolute top-[5px] left-[247px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
         <div className="relative leading-[48px] font-black">Tutorial</div>
       </div>
       <div className="absolute top-[5px] left-[143px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
         <div className="relative leading-[48px] font-black">Home</div>
-      </div>
+      </div> */}
       <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[73px]"
+        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[65px]"
         to="/"
         onClick={onHomeButtonClick}
       >
         <img
-          className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
+          className="absolute top-[4px] left-[10px] w-[60px] h-[60px] overflow-hidden"
           alt=""
           src="/bxhome4.svg"
         />
@@ -115,11 +119,11 @@ const PatternLandingPage: FunctionComponent = () => {
           />
         </div>
       </div>
-      <img
+      {/* <img
         className="absolute h-[2.68%] w-[2.81%] top-[1.06%] right-[6.91%] bottom-[96.27%] left-[90.28%] max-w-full overflow-hidden max-h-full"
         alt=""
         src="/vector2.svg"
-      />
+      /> */}
     </div>
   );
 };

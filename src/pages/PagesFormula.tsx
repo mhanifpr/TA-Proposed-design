@@ -7,6 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import { Link, useNavigate } from "react-router-dom";
+import SearchAppBar from "./Searchbar";
 
 const PagesFormula: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -19,12 +20,12 @@ const PagesFormula: FunctionComponent = () => {
     <div className="relative bg-white w-full h-[1440px] overflow-hidden text-left text-xl text-black font-poppins">
       <div className="absolute top-[73px] left-[0px] bg-lightcyan w-[270px] h-[1367px]" />
       <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[73px]"
+        className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[65px]"
         to="/"
         onClick={onHomeButtonClick}
       >
         <img
-          className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
+          className="absolute top-[4px] left-[10px] w-[60px] h-[60px] overflow-hidden"
           alt=""
           src="/bxhome6.svg"
         />
@@ -56,7 +57,11 @@ const PagesFormula: FunctionComponent = () => {
       </div>
       <div className="absolute top-[1119px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">{`Perhitungan mengenai efisiensi Militer untuk penyerangan `}</div>
       <div className="absolute top-[256px] left-[330px] tracking-[-0.02em] leading-[25px] inline-block w-[891px]">{`Salah satu opsi yang tersedia bagi kami untuk meningkatkan ukuran tanah kami adalah menjelajah dengan melengkapi ekspedisi dengan tentara dan emas. Tanah dari perjalanan ini akan tersedia selama 24 detik. `}</div>
-      <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" />
+      
+      <div className="absolute top-[0px] left-[0px] w-[1360px] h-73 bg-gray text-center border-1 ">
+        <SearchAppBar />
+      </div>
+      {/* <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" />
       <div className="absolute top-[5px] left-[247px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
         <div className="relative leading-[48px] font-black">Tutorial</div>
       </div>
@@ -67,7 +72,7 @@ const PagesFormula: FunctionComponent = () => {
         className="absolute top-[5px] left-[11px] rounded-11xl w-[60px] h-[60px] object-cover"
         alt=""
         src="/image-1@2x.png"
-      />
+      /> */}
       <div className="absolute top-[499px] left-[330px] rounded bg-oldlace w-[891px] h-[115px] text-3xl text-saddlebrown-100">
         <img
           className="absolute top-[9px] left-[12px] w-[26px] h-[26px] overflow-hidden"
@@ -106,11 +111,11 @@ const PagesFormula: FunctionComponent = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <img
+      {/* <img
         className="absolute top-[10px] left-[1292px] w-[54px] h-[54px] overflow-hidden"
         alt=""
         src="/materialsymbolssearch.svg"
-      />
+      /> */}
       <div className="absolute top-[350px] left-[330px] rounded bg-mintcream w-[891px] h-[120px] text-3xl text-darkolivegreen">
         <div className="absolute top-[11px] left-[46px] tracking-[-0.02em] leading-[25px] font-extrabold">
           Tips
