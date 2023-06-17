@@ -160,6 +160,9 @@ const ComponentOverview1: FunctionComponent = () => {
           src="/bxhome2.svg"
         />
       </Link>
+      <b className="absolute top-[25px] left-[calc(50%_-_76px)] text-13xl tracking-[-0.02em]">
+        Overview
+      </b>
     </div>
   );
 };

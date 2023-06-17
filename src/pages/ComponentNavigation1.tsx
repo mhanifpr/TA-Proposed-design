@@ -15,7 +15,9 @@ const ComponentNavigation1: FunctionComponent = () => {
           src="/bxhome.svg"
         />
       </Link>
-      
+      <b className="absolute top-[152px] left-[calc(50%_-_89px)] text-13xl tracking-[-0.02em] text-black">
+        Navigation
+      </b>
       
       <div className="absolute top-[290px] left-[250px] w-[976px] h-48 bg-gray text-center border-1 ">
         <SearchAppBar />

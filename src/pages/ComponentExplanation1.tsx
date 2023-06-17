@@ -49,6 +49,9 @@ const ComponentExplanation1: FunctionComponent = () => {
           src="/bxhome2.svg"
         />
       </Link>
+      <b className="absolute top-[18px] left-[calc(50%_-_96px)] text-13xl tracking-[-0.02em]">
+        Explanation
+      </b>
     </div>
   );
 };

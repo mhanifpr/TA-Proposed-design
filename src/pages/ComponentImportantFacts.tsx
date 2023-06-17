@@ -158,6 +158,9 @@ const ComponentImportantFacts: FunctionComponent = () => {
           src="/bxhome1.svg"
         />
       </Link>
+      <b className="absolute top-[15px] left-[calc(50%_-_128px)] text-13xl tracking-[-0.02em] font-poppins">
+        Important Facts
+      </b>
     </div>
   );
 };

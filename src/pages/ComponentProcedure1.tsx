@@ -56,7 +56,9 @@ const ComponentProcedure1: FunctionComponent = () => {
           src="/bxhome2.svg"
         />
       </Link>
-
+      <b className="absolute top-[18px] left-[638px] text-13xl tracking-[-0.02em]">
+        Procedure
+      </b>
       <div className="absolute top-[843px] left-[400px] w-[776px] h-48 bg-gray text-center">
         <HorizontalLinearStepper />
       </div>

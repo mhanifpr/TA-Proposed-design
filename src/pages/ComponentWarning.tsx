@@ -56,6 +56,9 @@ const ComponentWarning: FunctionComponent = () => {
           src="/bxhome1.svg"
         />
       </Link>
+      <b className="absolute top-[18px] left-[638px] text-13xl tracking-[-0.02em]">
+        Warning
+      </b>
     </div>
   );
 };

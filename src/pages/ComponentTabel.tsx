@@ -33,6 +33,9 @@ const ComponentTabel: FunctionComponent = () => {
           src="/bxhome2.svg"
         />
       </Link>
+      <b className="absolute top-[18px] left-[638px] text-13xl tracking-[-0.02em]">
+        Tabel
+      </b>
     </div>
   );
 };

@@ -86,6 +86,9 @@ const ComponentLandingPage1: FunctionComponent = () => {
           src="/bxhome3.svg"
         />
       </Link>
+      <b className="absolute top-[20px] left-[calc(50%_-_108px)] text-13xl tracking-[-0.02em]">
+        Landing Page
+      </b>
     </div>
   );
 };

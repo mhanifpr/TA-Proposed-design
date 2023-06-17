@@ -41,6 +41,9 @@ const ComponentRecipe: FunctionComponent = () => {
           src="/bxhome1.svg"
         />
       </Link>
+      <b className="absolute top-[18px] left-[638px] text-13xl tracking-[-0.02em]">
+        Recipe
+      </b>
     </div>
   );
 };
