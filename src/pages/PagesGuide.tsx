@@ -29,107 +29,33 @@ const PagesGuide: FunctionComponent = () => {
         <SearchAppBar />
       </div>
       <div className="absolute top-[129px] left-[309px] text-13xl [text-decoration:underline] tracking-[-0.02em] leading-[25px] font-semibold">
-        How to Play
+        Managing Your Resources
       </div>
       <div className="absolute top-[210px] left-[330px] text-5xl tracking-[-0.02em] leading-[25px] font-semibold">
-        Pilih Race and Personality
+        Money / Income
       </div>
       <div className="absolute top-[730px] left-[330px] text-5xl tracking-[-0.02em] leading-[25px] font-semibold">
-        Atur Sumber Daya Kerajaanmu!
+        Kelola Food Provinsimu!
       </div>
-      <div className="absolute top-[1600px] left-[330px] text-5xl tracking-[-0.02em] leading-[25px]">
-        <span className="font-semibold">{`Pertahankan Kerajaanmu agar tidak `}</span>
-        <i className="font-semibold">Collapse</i>
+      <div className="absolute top-[1400px] left-[330px] text-5xl tracking-[-0.02em] leading-[25px]">
+        <span className="font-semibold">{`Runes `}</span>
         <span className="font-semibold">!!</span>
       </div>
       <div className="absolute top-[260px] left-[330px] tracking-[-0.02em] leading-[25px] text-[inherit] inline-block w-[891px]">
-        {`Bagi para pemain baru, Langkah awal cepat untuk memainkan permainan utopia yaitu Untuk memulai permainan, pemain harus membuat kerajaannya dengan menentukan wilayah yang akan dikuasainya. Pemain juga harus `}
-        <a
-          className="text-[inherit]"
-          href="https://www.notion.so/Personality-and-Races-297b7a258880469c808f22dbfdf509da?pvs=4"
-          target="_blank"
-        >
-          <span className="[text-decoration:underline]">memilih ras</span>
-        </a>{" "}
-        yang akan dimainkan, yang akan menentukan karakteristik khusus dan
-        kemampuan khusus kerajaan.
+        {`Uang sangat penting di permainan Utopia karena dibutuhkan untuk membangun berbagai bangunan dan tentara. Uang juga digunakan untuk membayar gaji pekerja, pasukan, 
+        dan pelayan. Jika kamu tidak memiliki cukup uang, kamu akan kesulitan untuk mempertahankan kerajaanmu. Satuan Uang dalam game yaitu gc (gold coin). Berikut adalah dari mana saja uang dibuat dalam game Utopia.`}
+        
       </div>
       <div className="absolute top-[780px] left-[330px] tracking-[-0.02em] leading-[25px] text-[inherit] inline-block w-[891px]">
-        <span>{`Setelah membuat kerajaannya, pemain harus mengatur `}</span>
-        <a
-          className="text-[inherit]"
-          href="https://guide-documentation.vercel.app/docs/QuickStart/Infrastructure%20and%20Growth/Growth/FAQ-Growth"
-          target="_blank"
-        >
-          <span className="[text-decoration:underline] font-semibold">
-            ekonomi
-          </span>
-        </a>
-        <span>{` dan `}</span>
-        <a
-          className="text-[inherit]"
-          href="https://guide-documentation.vercel.app/docs/QuickStart/Infrastructure%20and%20Growth/Building%20Your%20Province/Buildings-and-TheirEffect"
-          target="_blank"
-        >
-          <span className="font-semibold">
-            <span className="[text-decoration:underline]">
-              infrastruktur kerajaan
-            </span>
-          </span>
-        </a>
-        <span className="font-semibold">nya</span>
-        <span className="font-poppins">{`, serta `}</span>
-        <a
-          className="text-[inherit]"
-          href="https://guide-documentation.vercel.app/docs/QuickStart/Infrastructure%20and%20Growth/Growth/Military"
-          target="_blank"
-        >
-          <span className="[text-decoration:underline] font-semibold">
-            membangun pasukan
-          </span>
-        </a>
-        <span>{` dan pertahanan untuk melindungi kerajaannya dari serangan musuh. Pemain juga harus `}</span>
-        <a
-          className="text-[inherit]"
-          href="https://guide-documentation.vercel.app/docs/QuickStart/Infrastructure%20and%20Growth/Growth/Explorations"
-          target="_blank"
-        >
-          <span className="font-semibold">
-            <span className="[text-decoration:underline]">
-              memperluas wilayah
-            </span>
-          </span>
-        </a>
-        <span className="font-semibold">nya</span>
-        <span className="font-poppins">
-          {" "}
-          dengan menaklukkan kerajaan lain atau melakukan persekutuan dengan
-          kerajaan lain untuk saling membantu.
-        </span>
+        <span>{`Food sangat penting untuk pertumbuhan kota dan pasukan Anda di Utopia. Anda memerlukan jumlah Food yang cukup untuk menjaga kestabilan populasi kota, 
+        membangun bangunan, dan melatih pasukan. Jika pasokan Food Anda menipis, kesehatan dan kekuatan pasukan akan menurun, sehingga membuat Anda lebih rentan terhadap serangan musuh. 
+        Pastikan untuk mempertahankan produksi makanan yang cukup agar kota Anda selalu berkembang dengan baik. Satuan Food adalah bushels. Berikut adalah hal yang harus diperhatikan dalam mengelola Food `}</span>
+        
       </div>
-      <div className="absolute top-[1350px] left-[330px] tracking-[-0.02em] leading-[25px] inline-block w-[891px]">
-        <p className="m-0">
-          Selama bermain, pemain akan mendapatkan poin pengalaman dan kemampuan
-          untuk meningkatkan kekuatan kerajaannya dan membuatnya lebih efisien
-          dalam menghasilkan sumber daya dan mengelola pertahanannya. Di Utopia,
-          kerajaan yang sukses akan menjadi yang paling kuat dan terhormat di
-          seluruh dunia. Permainan ini terus berkembang dan diperbarui oleh
-          pengembang, dan tersedia dalam beberapa bahasa.
-        </p>
-        <p className="m-0">&nbsp;</p>
-        <p className="m-0">
-          Untuk memulai bermain, pemain harus membuat akun di situs resmi
-          Utopia, dan mengikuti petunjuk untuk memulai permainan. Untuk berhasil
-          dalam permainan ini, diperlukan strategi yang cerdas dan kepemimpinan
-          yang baik dalam mengelola kerajaan Anda.
-        </p>
-      </div>
-      <div className="absolute top-[1650px] left-[330px] tracking-[-0.02em] leading-[25px] inline-block w-[891px]">
-        Jika Provinsi sudah lama ditinggalkan, maka provinsi tersebut akan
-        mengalami keruntuhan atau Collapse karena kelaparan. Selain akan runtuh
-        sendiri jika lama tidak dimainkan, Provinsi juga dapat diserang atau
-        dicuri musuh. Oleh karena itu ada beberapa hal yang harus Anda lakukan
-        sebelum meninggalkan provinsimu!
+      
+      <div className="absolute top-[1450px] left-[330px] tracking-[-0.02em] leading-[25px] inline-block w-[891px]">
+      Runes adalah Sumber Daya utama untuk melakukan Spell Cast. Namun Runes juga dapat dicuri oleh musuh, 
+      oleh karena itu jangan lupa untuk memperkuat pertahanan militermu! Runes juga dapat diproduksi melalui bangunan Towers. Berikut adalah beberapa hal yang dapat membantu Anda untuk mengelola Runes. 
       </div>
       <div className="absolute top-[416px] left-[445px] w-[776px] h-48 bg-gray text-center">
         <HorizontalLinearStepper />
@@ -246,19 +172,19 @@ const PagesGuide: FunctionComponent = () => {
         alt=""
         src="/materialsymbolssearch.svg"
       /> */}
-      <div className="absolute top-[1775px] left-[calc(50%_-_19px)] w-[207px] h-[206px] text-mini">
+      <div className="absolute top-[1615px] left-[calc(50%_-_19px)] w-[207px] h-[206px] text-mini">
         <div className="absolute top-[0px] left-[0px] w-[450px] h-[29px] flex flex-row items-center justify-start gap-[22px]">
           <div className="relative rounded-[50%] bg-gainsboro-200 w-[29px] h-[29px]" />
           <div className="relative tracking-[-0.02em] leading-[25px] font-medium">
-            Pastikan Anda memiliki spell pelindung atau Watch Tower
+            Setelah setiap tick, 1,2% dari total rune yang disimpan akan membusuk.
           </div>
         </div>
         <div className="absolute top-[88px] left-[0px] w-[190px] h-[118px]">
-          <div className="absolute top-[1.69%] left-[26.84%] tracking-[-0.02em] leading-[25px] font-medium">
-            Pastikan Anda memiliki Food.
+          <div className="absolute top-[1.69%] left-[26.84%] w-[280px] tracking-[-0.02em] leading-[25px] font-medium">
+          Membuat bangunan Towers dan Watch Tower 
           </div>
-          <div className="absolute top-[77.12%] left-[26.84%] tracking-[-0.02em] leading-[25px] font-medium">
-            Buat Pasukan Militer
+          <div className="absolute top-[77.12%] left-[26.84%] w-[280px] tracking-[-0.02em] leading-[25px] font-medium">
+            Sisakan Pasukan Militer untuk bertahan.
           </div>
           <div className="absolute h-[24.58%] w-[15.26%] top-[0%] right-[84.74%] bottom-[75.42%] left-[0%] rounded-[50%] bg-gainsboro-200" />
           <div className="absolute h-[24.58%] w-[15.26%] top-[75.42%] right-[84.74%] bottom-[0%] left-[0%] rounded-[50%] bg-gainsboro-200" />

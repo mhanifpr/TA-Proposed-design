@@ -10,19 +10,19 @@ import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 
 const steps = [
   {
-    label: "Build Your Buildings",
-    description: `Bangunlah bangunan untuk meningkatkan ekonomi kerajaanmu! Baca lah
-    detail kelebihan dan kekurangan setiap bangunan.`,
+    label: "Food Produce",
+    description: `Food dapat di produksi melalui bangunan Farms, beberapa Race atau Personality bisa 
+    mempunyai kemampuan khusus yang bisa mempercepat produksi bushels.`,
   },
   {
-    label: "Increase The Army",
+    label: "Food Consume",
     description:
-      "bangun pertahanan kerajaanmu dengan meningkatkan pasukan. Pasukan dapat ditingkatkan dengan membuat bangunan Military Barracks dan lainnya.",
+      "Jika suatu provinsi tidak memiliki Food, maka provinsi tersebut akan mengalami kelaparan. Ketika provinsi mengalami kelaparan, jumlah populasi di dalamnya (petani, pasukan militer, dan pencuri) akan berkurang seiring dengan besarnya kekurangan makanan (termasuk pasukan yang sedang berada di luar provinsi). Namun, para penyihir tidak akan terpengaruh oleh kondisi kelaparan.",
   },
   {
-    label: "Expand Your Land",
-    description: `Kembangkan kerajaanmu dengan memperluas lahan. Lahan dapat beratambah dengan melakukan eksplorasi atau menyerang kerajaan lain.
-    Baca dan teliti lebih seksama dan susun strategimu!`,
+    label: "Food Decayed",
+    description: `Dalam kondisi normal, sekitar 0,99 atau sekitar 1% dari total stok makanan akan rusak. Jumlah yang tepat tergantung pada pengubah dalam rumus yang telah diberikan di atas dan dihitung berdasarkan total makanan yang disimpan di provinsi. 
+    Jadi jika sebuah provinsi memiliki 300.000 bushels makanan dalam stok dalam kondisi normal, maka penurunan yang diharapkan sedikit lebih atau kurang dari 3000 bushels per tick / hari Utopia.`,
   },
 ];
 

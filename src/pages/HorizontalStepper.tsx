@@ -7,9 +7,9 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 const steps = [
-  "Buat Akun",
-  "Baca dan Ikuti Tutorial Wiki",
-  "Pilih Ras Dan Personality",
+  "Pajak dari Warga",
+  "Meminta bantuan kerajaan lain",
+  "Menambah lahan pekerjaan",
 ];
 
 export default function HorizontalLinearStepper() {
@@ -84,7 +84,7 @@ export default function HorizontalLinearStepper() {
       {activeStep === steps.length ? (
         <React.Fragment>
           <Typography sx={{ mt: 2, mb: 1 }}>
-            Tahap Awal Selesai - Selamat Bermain!
+            Atur strategimu dan kelola Uangmu!
           </Typography>
           <Box sx={{ display: "flex", flexDirection: "row", pt: 2 }}>
             <Box sx={{ flex: "1 1 auto" }} />
