@@ -17,7 +17,7 @@ const PagesFormula: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-white w-full h-[1733px] overflow-hidden text-left text-xl text-black font-poppins">
+    <div className="relative bg-white w-full h-[1850px] overflow-hidden text-left text-xl text-black font-poppins">
       <div className="absolute top-[73px] left-[0px] bg-lightcyan w-[270px] h-[1660px]" />
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[1360px] bg-peru w-20 h-[65px]"
@@ -63,11 +63,11 @@ const PagesFormula: FunctionComponent = () => {
         yang akan dilakukan. Variabel yang ada pada rumus dibawah merupakan
         hal-hal yang mempengaruhi rumus tersebut.
       </div>
-      <div className="absolute top-[1296px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">
+      <div className="absolute top-[1276px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">
         Perhitungan mengenai efisiensi Militer
       </div>
-      <div className="absolute top-[1440px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">{`Perhitungan mengenai efisiensi Militer untuk penyerangan `}</div>
-      <div className="absolute top-[1592px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">{`Perhitungan mengenai efisiensi Militer untuk Bertahan `}</div>
+      <div className="absolute top-[1420px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">{`Perhitungan mengenai efisiensi Militer untuk penyerangan `}</div>
+      <div className="absolute top-[1632px] left-[776px] tracking-[-0.02em] leading-[25px] inline-block w-[394px]">{`Perhitungan mengenai efisiensi Militer untuk Bertahan `}</div>
       <div className="absolute top-[256px] left-[330px] text-sm tracking-[-0.02em] leading-[25px] inline-block w-[891px]">{`Salah satu opsi yang tersedia bagi kami untuk meningkatkan ukuran tanah kami adalah menjelajah dengan melengkapi ekspedisi dengan tentara dan emas. Tanah dari perjalanan ini akan tersedia selama 24 detik. `}</div>
       {/* <div className="absolute top-[0px] left-[0px] bg-dodgerblue w-[1360px] h-[73px]" />
       <div className="absolute top-[5px] left-[247px] flex flex-row py-2.5 px-0 items-start justify-start text-white">
@@ -120,7 +120,7 @@ const PagesFormula: FunctionComponent = () => {
         </AccordionDetails>
       </Accordion>
       <Accordion
-        className="absolute top-[1571px] left-[330px]"
+        className="absolute top-[1631px] left-[330px]"
         sx={{ width: 400 }}
       >
         <AccordionSummary expandIcon={<Icon>expand_more</Icon>}>
