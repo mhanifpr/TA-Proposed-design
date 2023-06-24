@@ -63,7 +63,7 @@ const HomePage: FunctionComponent = () => {
   return (
     <div className="relative bg-white w-full h-[720px] overflow-hidden text-left text-mini text-black font-poppins">
       <div className="absolute top-[0px] left-[0px] w-[1440px] h-[83px] text-13xl text-white">
-        <div className="absolute top-[0px] left-[0px] rounded-tl-none rounded-tr-3xs rounded-b-3xs bg-dodgerblue shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[1440px] h-[83px]" />
+        <div className="absolute top-[0px] left-[0px] rounded-tl-none bg-dodgerblue shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] w-[1440px] h-[83px]" />
         <b className="absolute top-[19px] left-[calc(50%_-_187px)] tracking-[-0.02em] inline-block w-[374px]">
           UI Library for GameSim
         </b>
