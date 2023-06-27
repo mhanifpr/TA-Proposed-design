@@ -174,7 +174,7 @@ const PagesGuide: FunctionComponent = () => {
       /> */}
       <div className="absolute top-[1615px] left-[calc(50%_-_19px)] w-[207px] h-[206px] text-mini">
         <div className="absolute top-[0px] left-[0px] w-[450px] h-[29px] flex flex-row items-center justify-start gap-[22px]">
-          <div className="relative rounded-[50%] bg-gainsboro-200 w-[29px] h-[29px]" />
+          <div className="relative rounded-[50%] bg-gainsboro-200 w-[39px] h-[29px]" />
           <div className="relative tracking-[-0.02em] leading-[25px] font-medium">
             Setelah setiap tick, 1,2% dari total rune yang disimpan akan membusuk.
           </div>
