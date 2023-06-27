@@ -12,14 +12,14 @@ const ComponentOverview1: FunctionComponent = () => {
     <div className="relative bg-gainsboro-200 w-full h-[2011px] overflow-y-auto text-left text-29xl text-black font-poppins">
       <div className="absolute top-[618.5px] left-[-0.5px] box-border w-[1441px] h-px border-t-[1px] border-solid border-black" />
       <div className="absolute top-[1347px] left-[419px] rounded-11xl bg-white w-[679px] h-[617px]" />
-      <div className="absolute top-[1379px] left-[352px] leading-[48px] font-black">
+      <div className="absolute top-[1379px] left-[352px] leading-[48px] font-semibold">
         #3
       </div>
       <div className="absolute top-[1317.5px] left-[-0.5px] box-border w-[1441px] h-px border-t-[1px] border-solid border-black" />
       <div className="absolute top-[93px] left-[82px] w-[1398px] h-[489px] text-mini">
         <div className="absolute top-[-58px] left-[42px] rounded-11xl bg-white w-[1238px] h-[556px]" />
-        <div className="absolute top-[5.52%] left-[4.29%] text-45xl leading-[48px] font-extrabold">
-          Heading
+        <div className="absolute top-[5.52%] left-[4.29%] text-45xl leading-[48px] font-bold">
+          Heading 1
         </div>
         <div className="absolute h-[20.65%] w-[41.99%] top-[22.29%] left-[4.29%] tracking-[-0.02em] leading-[25px] font-medium inline-block">
           <p className="m-0">
@@ -59,11 +59,11 @@ const ComponentOverview1: FunctionComponent = () => {
           </span>
         </div>
         <img
-          className="absolute h-[104.09%] w-[43.63%] top-[-11.86%] right-[9.8%] bottom-[7.77%] left-[46.57%] max-w-full overflow-hidden max-h-full object-cover"
+          className="absolute h-[104.09%] w-[43.63%] top-[-11.86%] right-[12.8%] bottom-[7.77%] left-[48.89%] max-w-full overflow-hidden max-h-full object-cover"
           alt=""
           src="/mask-group@2x.png"
         />
-        <div className="absolute top-[0px] left-[-15px] text-29xl leading-[48px] font-black">{`#1 `}</div>
+        <div className="absolute top-[0px] left-[-15px] text-29xl leading-[48px] font-semibold">{`#1 `}</div>
       </div>
       <div className="absolute top-[722px] left-[66px] w-[1308px] h-[428px] text-5xl">
         <div className="absolute h-[119.63%] w-[82.8%] top-[2.1%] right-[8.1%] bottom-[-21.73%] left-[9.1%] rounded-11xl bg-white" />
@@ -105,15 +105,16 @@ const ComponentOverview1: FunctionComponent = () => {
           Utopia-Game
         </div>
         <div className="absolute h-[14.25%] w-[59.4%] top-[35.08%] left-[20.87%] text-mini tracking-[-0.02em] font-medium text-center inline-block">
-          <p className="m-0">{`Lörem ipsum jongen kvasipyrat, tills bioska dira innan bir och syspel. Epipod isk. Epiktig makronat och tira dekanera vide. Rende immersiv och nar delan nesa pretebel. Kogöl monovalens hisasade vanera. Multina ekogram, kostymrasist krod i megaspeskapet geona fast tranisade. Ulig fysisk cd, eftersom mijässade plaspev bende. Ågena katek eurobävning.. `}</p>
+          <p className="m-0">{`Utopia adalah sebuah permainan daring (online) yang dirancang untuk dimainkan oleh banyak pemain dalam satu waktu. Permainan ini berbasis browser dan berfokus pada simulasi kehidupan di dunia virtual. Dalam permainan ini, 
+          pemain akan berperan sebagai seorang Raja atau Ratu yang bertanggung jawab untuk membangun dan mengelola kerajaannya. `}</p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">&nbsp;</p>
           <p className="m-0">&nbsp;</p>
         </div>
-        <div className="absolute h-[7.48%] w-[5.66%] top-[9.35%] left-[47.78%] text-base leading-[48px] font-black text-cornflowerblue-100 inline-block">
+        <div className="absolute h-[7.48%] w-[5.66%] top-[9.35%] left-[47.78%] text-base leading-[48px] font-medium text-cornflowerblue-100 inline-block">
           Overview
         </div>
-        <div className="absolute top-[8.64%] left-[3.75%] text-29xl leading-[48px] font-black">
+        <div className="absolute top-[8.64%] left-[3.75%] text-29xl leading-[48px] font-semibold">
           #2
         </div>
       </div>

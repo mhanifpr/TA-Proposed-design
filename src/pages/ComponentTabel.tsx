@@ -10,7 +10,7 @@ const ComponentTabel: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative rounded-3xs bg-gainsboro-200 w-full h-[720px] overflow-hidden text-left text-lg text-black font-poppins">
+    <div className="relative rounded-3xs bg-gainsboro-200 w-full h-[820px] overflow-hidden text-left text-lg text-black font-poppins">
       <div className="absolute top-[634px] left-[1148px] w-3 h-3 overflow-hidden" />
       <div className="absolute top-[634px] left-[1136px] w-3 h-3 overflow-hidden" />
       <div className="absolute top-[592px] left-[724px] w-[490px] flex flex-row items-center justify-between text-mini"/>

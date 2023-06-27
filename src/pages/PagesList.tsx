@@ -13,12 +13,12 @@ const PagesList: FunctionComponent = () => {
   return (
     <div className="relative bg-gainsboro-200 w-full h-[1878px] overflow-hidden text-left text-[inherit] text-black font-poppins">
       <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[5px] left-[0px] bg-gray-100 w-20 h-[73px]"
+        className="cursor-pointer [text-decoration:none] fixed top-[5px] left-[0px] bg-gray-100 w-20 h-[73px]"
         to="/"
         onClick={onHomeButtonClick}
       >
         <img
-          className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
+          className="fixed top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
           alt=""
           src="/bxhome4.svg"
         />
@@ -28,7 +28,7 @@ const PagesList: FunctionComponent = () => {
         Personality
       </b>
       <img
-        className="absolute top-[73px] left-[120px] w-[273px] h-[750px] object-cover"
+        className="fixed top-[73px] left-[120px] w-[273px] h-[750px] object-cover"
         alt=""
         src="/screen-shot-20230614-at-1846-1@2x.png"
       />
