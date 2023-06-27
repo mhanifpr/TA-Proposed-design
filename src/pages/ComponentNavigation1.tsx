@@ -4,7 +4,7 @@ import SearchAppBar from "./Searchbar";
 
 const ComponentNavigation1: FunctionComponent = () => {
   return (
-    <div className="relative bg-white w-full h-[720px] overflow-hidden text-left text-xl text-black font-poppins">
+    <div className="relative bg-gainsboro-200 w-full h-[920px] overflow-hidden text-left text-xl text-black font-poppins">
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[121px] left-[1360px] bg-peru w-20 h-[73px]"
         to="/"

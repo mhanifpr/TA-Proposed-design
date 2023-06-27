@@ -9,11 +9,9 @@ const ComponentTroubleShooting: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-white w-full h-[720px] overflow-hidden text-left text-base text-black font-poppins">
-      <div className="absolute top-[173px] left-[calc(50%_-_147px)] text-mini tracking-[-0.02em] leading-[25px] font-medium">
-        https://mui.com/material-ui/react-alert/
-      </div>
-      <div className="absolute top-[234px] left-[53px] rounded bg-mintcream w-[585px] h-[61px] text-darkolivegreen">
+    <div className="relative bg-gainsboro-200 w-full h-[1280px] overflow-hidden text-left text-base text-black font-poppins">
+      <div className="absolute top-[118px] left-[363px] rounded-11xl bg-white w-[683px] h-[451px]" />
+      <div className="absolute top-[227px] left-[409px] rounded bg-mintcream w-[585px] h-[61px] text-darkolivegreen">
         <div className="absolute top-[6px] left-[38px] tracking-[-0.02em] leading-[25px] font-extrabold">
           Success
         </div>
@@ -27,7 +25,7 @@ const ComponentTroubleShooting: FunctionComponent = () => {
           src="/claritysuccessstandardline.svg"
         />
       </div>
-      <div className="absolute top-[234px] left-[745px] rounded bg-aliceblue w-[585px] h-[61px] text-darkslategray-200">
+      <div className="absolute top-[413px] left-[409px] rounded bg-aliceblue w-[585px] h-[61px] text-darkslategray-200">
         <div className="absolute top-[6px] left-[38px] tracking-[-0.02em] leading-[25px] font-extrabold">
           Info
         </div>
@@ -41,8 +39,8 @@ const ComponentTroubleShooting: FunctionComponent = () => {
           src="/materialsymbolsinfooutline.svg"
         />
       </div>
-      <div className="absolute top-[165px] left-[330px] text-29xl leading-[48px] font-black">{`#1 `}</div>
-      <div className="absolute top-[166px] left-[1016px] text-29xl leading-[48px] font-black">
+      <div className="absolute top-[158px] left-[673px] text-29xl leading-[48px] font-black">{`#1 `}</div>
+      <div className="absolute top-[345px] left-[673px] text-29xl leading-[48px] font-black">
         #2
       </div>
       <Link
@@ -53,10 +51,10 @@ const ComponentTroubleShooting: FunctionComponent = () => {
         <img
           className="absolute top-[6px] left-[10px] w-[60px] h-[60px] overflow-hidden"
           alt=""
-          src="/bxhome1.svg"
+          src="/bxhome.svg"
         />
       </Link>
-      <b className="absolute top-[18px] left-[638px] text-13xl tracking-[-0.02em]">
+      <b className="absolute top-[25px] left-[calc(50%_-_133px)] text-13xl tracking-[-0.02em]">
         TroubleShooting
       </b>
     </div>

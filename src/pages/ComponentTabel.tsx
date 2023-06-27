@@ -10,7 +10,7 @@ const ComponentTabel: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative rounded-3xs bg-white w-full h-[720px] overflow-hidden text-left text-lg text-black font-poppins">
+    <div className="relative rounded-3xs bg-gainsboro-200 w-full h-[720px] overflow-hidden text-left text-lg text-black font-poppins">
       <div className="absolute top-[634px] left-[1148px] w-3 h-3 overflow-hidden" />
       <div className="absolute top-[634px] left-[1136px] w-3 h-3 overflow-hidden" />
       <div className="absolute top-[592px] left-[724px] w-[490px] flex flex-row items-center justify-between text-mini"/>
@@ -21,7 +21,7 @@ const ComponentTabel: FunctionComponent = () => {
         https://mui.com/material-ui/react-table/
       </div>
 
-      <div className="absolute top-[50px] left-[200px] w-[1000px] h-[160px]"><StickyHeadTable/></div>
+      <div className="absolute top-[90px] left-[200px] w-[1000px] h-[160px]"><StickyHeadTable/></div>
       <Link
         className="cursor-pointer [text-decoration:none] absolute top-[0px] left-[0px] bg-peru w-20 h-[73px]"
         to="/"

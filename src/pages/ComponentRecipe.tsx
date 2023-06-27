@@ -16,7 +16,7 @@ const ComponentRecipe: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-white w-full h-[720px] overflow-hidden">
+    <div className="relative bg-gainsboro-200 w-full h-[720px] overflow-hidden">
       <Accordion
         className="absolute top-[249px] left-[500px] border-1"
         sx={{ width: 400 }}

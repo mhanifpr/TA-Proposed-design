@@ -9,7 +9,7 @@ const ComponentImportantFacts: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-white w-full h-[720px] overflow-hidden text-left text-base text-black font-roboto">
+    <div className="relative bg-gainsboro-200 w-full h-[820px] overflow-hidden text-left text-base text-black font-roboto">
       <div className="absolute top-[526px] left-[calc(50%_-_144px)] tracking-[0.15px] leading-[150%]">
         https://mui.com/material-ui/react-card/
       </div>

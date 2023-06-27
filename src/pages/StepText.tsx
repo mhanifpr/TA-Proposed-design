@@ -51,19 +51,22 @@ export default function TextMobileStepper() {
           pl: 2,
           bgcolor: "background.default",
         }}
-        className={"bg-gray-300"}
+        className={"bg-gray-300 text-sm"}
       >
-        <Typography>{steps[activeStep].label}</Typography>
+        <Typography className="text-lg">
+          {steps[activeStep].label}
+
+        </Typography>
       </Paper>
       <Box sx={{ height: 255, maxWidth: 400, width: "100%", p: 2 }}>
         {steps[activeStep].description}
       </Box>
       <MobileStepper
-        variant="text"
+        
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
-        className={"bg-gray-300"}
+        className={"bg-gray-300 "}
         nextButton={
           <Button
             size="small"
