@@ -49,6 +49,7 @@ export default function TextMobileStepper() {
           alignItems: "center",
           height: 50,
           pl: 2,
+          
           bgcolor: "background.default",
         }}
         className={"bg-gray-300 text-sm"}
